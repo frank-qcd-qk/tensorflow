@@ -17,6 +17,8 @@ cc_library(
     }) + glob([
         "source/intel/*.c",
         "source/*.c",
+        "source/arm/*.c",
+
     ]),
     hdrs = glob([
         "include/**/*.h"
